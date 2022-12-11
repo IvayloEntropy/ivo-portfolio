@@ -8,7 +8,7 @@
             <div class="lg:flex lg:space-x-12 xl:space-x-16">
               <!-- Left side -->
               <div class="mb-16 grow text-center lg:mt-32 lg:mb-0 lg:text-left">
-                <h1 class="h2 mb-8">Improve your digital products</h1>
+                <h1 class="h2 mb-8">Get in touch — let’s work together.</h1>
 
                 <div class="mb-12">
                   <ul class="inline-flex flex-col space-y-2.5 text-slate-500">
@@ -43,7 +43,7 @@
                           d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                         />
                       </svg>
-                      <span>Wanna call me directly? <b>+359898747162</b></span>
+                      <span>Or call me directly? <b>+359898747162</b></span>
                     </li>
                     <li class="flex items-center text-left">
                       <svg
@@ -81,36 +81,19 @@
                           <label
                             class="mt-2.5 mb-1.5 block text-left text-sm font-[550] leading-5 text-slate-800 sm:mb-0"
                             for="first-name"
-                            >First name</label
+                            >Your name</label
                           >
                           <div class="shrink-0 sm:w-72 xl:w-80">
                             <input
                               id="first-name"
                               class="form-input w-full py-2 text-sm"
                               type="text"
-                              placeholder="Patrick"
+                              placeholder="Patrick Miller"
                               required
                             />
                           </div>
                         </div>
-                        <div
-                          class="items-start justify-between sm:flex sm:space-x-4"
-                        >
-                          <label
-                            class="mt-2.5 mb-1.5 block text-left text-sm font-[550] leading-5 text-slate-800 sm:mb-0"
-                            for="last-name"
-                            >Last name</label
-                          >
-                          <div class="shrink-0 sm:w-72 xl:w-80">
-                            <input
-                              id="last-name"
-                              class="form-input w-full py-2 text-sm"
-                              type="text"
-                              placeholder="Mills"
-                              required
-                            />
-                          </div>
-                        </div>
+
                         <div
                           class="items-start justify-between sm:flex sm:space-x-4"
                         >
@@ -129,31 +112,14 @@
                             />
                           </div>
                         </div>
-                        <div
-                          class="items-start justify-between sm:flex sm:space-x-4"
-                        >
-                          <label
-                            class="mt-2.5 mb-1.5 block text-left text-sm font-[550] leading-5 text-slate-800 sm:mb-0"
-                            for="website"
-                            >Website</label
-                          >
-                          <div class="shrink-0 sm:w-72 xl:w-80">
-                            <input
-                              id="website"
-                              class="form-input w-full py-2 text-sm"
-                              type="text"
-                              placeholder="example.com"
-                              required
-                            />
-                          </div>
-                        </div>
+
                         <div
                           class="items-start justify-between sm:flex sm:space-x-4"
                         >
                           <label
                             class="mt-2.5 mb-1.5 block text-left text-sm font-[550] leading-5 text-slate-800 sm:mb-0"
                             for="company-size"
-                            >Company size</label
+                            >Service</label
                           >
                           <div class="shrink-0 sm:w-72 xl:w-80">
                             <select
@@ -161,10 +127,10 @@
                               class="form-select w-full py-2 text-sm"
                               required
                             >
-                              <option>Less than 10</option>
-                              <option>More than 10</option>
-                              <option>More than 20</option>
-                              <option>More than 50</option>
+                              <option>Need help with one off project</option>
+                              <option>Looking for long term partnership</option>
+                              <option>Need consulting</option>
+                              <option>Just wanted to say hi!</option>
                             </select>
                           </div>
                         </div>
@@ -174,7 +140,7 @@
                           <label
                             class="mt-2.5 mb-1.5 block text-left text-sm font-[550] leading-5 text-slate-800 sm:mb-0"
                             for="country"
-                            >Country</label
+                            >Budget</label
                           >
                           <div class="shrink-0 sm:w-72 xl:w-80">
                             <select
@@ -182,10 +148,10 @@
                               class="form-select w-full py-2 text-sm"
                               required
                             >
-                              <option>United States</option>
-                              <option>United Kingdom</option>
-                              <option>Germany</option>
-                              <option>Italy</option>
+                              <option>$1000 - $2500</option>
+                              <option>$2500 - $5000</option>
+                              <option>$5000 - $10000</option>
+                              <option>$10000 or more</option>
                             </select>
                           </div>
                         </div>
@@ -195,7 +161,7 @@
                           <label
                             class="mt-2.5 mb-1.5 block text-left text-sm font-[550] leading-5 text-slate-800 sm:mb-0"
                             for="comment"
-                            >Anything else?</label
+                            >Message</label
                           >
                           <div class="shrink-0 sm:w-72 xl:w-80">
                             <textarea

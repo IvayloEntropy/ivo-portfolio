@@ -7,7 +7,7 @@
           <h1
             class="leading-tighter mb-4 mt-2 text-5xl font-semibold tracking-tighter md:text-6xl"
           >
-            Tutorials & guides for using Simple with any project
+            Articles and toughts that may give you some value
           </h1>
         </div>
 
@@ -18,46 +18,19 @@
             class="grid items-start gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8"
           >
             <!-- 1st article -->
-            <article class="flex h-full flex-col" data-aos="zoom-y-out">
-              <header>
-                <router-link to="/blog-post" class="mb-6 block">
-             
-                </router-link>
-                <div class="mb-3">
-                  <ul class="-m-1 flex flex-wrap text-xs font-medium">
-                    <li class="m-1">
-                      <a
-                        class="inline-flex rounded-full bg-blue-500 py-1 px-3 text-center text-gray-100 transition duration-150 ease-in-out hover:bg-blue-600"
-                        href="#0"
-                        >Guides</a
-                      >
-                    </li>
-                    <li class="m-1">
-                      <a
-                        class="inline-flex rounded-full bg-blue-100 py-1 px-3 text-center text-gray-800 transition duration-150 ease-in-out hover:bg-blue-200"
-                        href="#0"
-                        >Intermediate</a
-                      >
-                    </li>
-                    <li class="m-1">
-                      <span
-                        class="inline-flex rounded-full bg-white py-1 px-3 text-center text-gray-800 shadow-sm"
-                        >4 min read</span
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <h3 class="mb-2 text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/blog-post" class="hover:underline"
-                    >Making component design decisions in React</router-link
-                  >
-                </h3>
-              </header>
-              <p class="grow text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore.
-              </p>
-            </article>
+            <ArticleItem
+              title="Redesigning your project, what are the steps there?"
+              image="https://acinonyxweb.agency/uploads/2020/12/pearsonuxdesignedbyawa.gif"
+            />
+
+            <ArticleItem
+              title="How to use Figma to organize your toughts and ideas?"
+              image="https://help.figma.com/hc/article_attachments/5285510204183/Create_section_from_selection.gif"
+            />
+            <ArticleItem
+              title="Design system, what value could bring in your project?"
+              image="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5aa962fe2c7d3a2c4983093d/images/5d23a1032c7d3a5cd38ed478/file-XZtk5ycXuW.gif"
+            />
           </div>
         </div>
       </div>
