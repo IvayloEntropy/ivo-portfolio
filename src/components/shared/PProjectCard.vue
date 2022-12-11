@@ -3,23 +3,42 @@ const props = defineProps({
   image: { type: String, default: "" },
   title: { type: String, default: "" },
   dark: { type: Boolean, default: false },
+  height: { type: Boolean, default: 350 },
+  link: { type: Boolean, default: "/" },
 })
 </script>
 <template>
-  <div
-    class="relative bg-gray-50"
-    style="box-shadow: 0 8px 20px rgb(0 0 0 / 8%), 0 1px 6px rgb(0 0 0 / 5%)"
+  <router-link
+    class="group relative transition duration-150 ease-in-out hover:shadow-xl"
+    :to="link"
   >
-    <span
-      class="absolute top-8 left-8 w-52 text-3xl font-semibold"
-      :class="{ 'text-gray-50': dark, 'text-gray-900': !dark }"
-      >{{ title }}</span
-    >
-
     <img
-      class="cursor-pointer"
+      class="aspect-square w-full object-cover"
       :src="image"
-      style="height: 100%; width: 100%; object-fit: cover"
+      alt="Inspiration 07"
+      :style="'height: ' + height + 'px'"
     />
-  </div>
+    <!-- Content on hover -->
+    <div
+      class="absolute bottom-0 left-0 right-0 p-4 md:hidden md:group-hover:block"
+    >
+      <!-- Backdrop -->
+      <div
+        class="pointer-events-none absolute inset-0 -mt-4 bg-gradient-to-t from-gray-800 to-transparent opacity-80"
+        aria-hidden="true"
+      ></div>
+      <!-- Content -->
+      <div class="relative flex justify-between">
+        <!-- Left side -->
+        <div class="flex items-center">
+          <div class="truncate">
+            <div class="truncate font-bold text-white">{{ title }}</div>
+            <div class="truncate text-xs text-white opacity-60">
+              @Frontend, @WebDesign
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </router-link>
 </template>

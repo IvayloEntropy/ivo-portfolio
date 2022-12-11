@@ -3,4 +3,5 @@
   <HomeHero />
   <HomeClientProjects />
   <HomePersonalProjects />
+  <PCallToAction />
 </template>

@@ -2,10 +2,16 @@
 const props = defineProps({
   link: { type: String, default: "" },
   classes: { type: String, default: "" },
+  size: { type: String, default: "sm" },
 })
+
+const sizes = {
+  sm: { class: "text-xl" },
+  lg: { class: "text-6xl" },
+}
 </script>
 <template>
-  <router-link :to="link" class="base_link text-xl" :class="classes"
+  <router-link :to="link" class="base_link" :class="classes + sizes[size].class"
     ><slot
   /></router-link>
 </template>

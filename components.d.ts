@@ -16,6 +16,7 @@ declare module '@vue/runtime-core' {
     HomeHeader: typeof import('./src/components/home/HomeHeader.vue')['default']
     HomeHero: typeof import('./src/components/home/HomeHero.vue')['default']
     HomePersonalProjects: typeof import('./src/components/home/HomePersonalProjects.vue')['default']
+    PCallToAction: typeof import('./src/components/shared/PCallToAction.vue')['default']
     PLinkButton: typeof import('./src/components/shared/PLinkButton.vue')['default']
     PProjectCard: typeof import('./src/components/shared/PProjectCard.vue')['default']
     PSignitureText: typeof import('./src/components/shared/PSignitureText.vue')['default']

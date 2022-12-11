@@ -5,15 +5,17 @@
     <h1 class="mb-16 mt-6 text-4xl font-semibold tracking-tighter md:text-5xl">
       Startups stories
     </h1>
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-2 gap-4">
       <PProjectCard
-        image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
+        link="/project"
+        title="Star wars SWAPI"
+        image="/Projects/swapi.png"
       />
+
       <PProjectCard
-        image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
-      />
-      <PProjectCard
-        image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
+        link="/project"
+        title="Teamwork planning poker"
+        image="/Projects/planningpoker.png"
       />
     </div>
   </div>

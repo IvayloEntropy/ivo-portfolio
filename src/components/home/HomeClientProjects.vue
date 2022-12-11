@@ -10,19 +10,28 @@
       </h1>
       <div class="grid grid-cols-2 gap-4">
         <PProjectCard
+          link="/project"
           title="Teamwork Details Panel"
           image="/Projects/teamwork.png"
         />
         <PProjectCard
-          title="Teamwork planning"
-          image="/Projects/teamworkpoker.png"
-        />
-        <PProjectCard
+          link="/project"
           title="BnewB academy"
           image="/Projects/bnewbacademy.png"
           dark
         />
-        <PProjectCard title="Talentjam" image="/Projects/talentjam.png" dark />
+        <PProjectCard
+          link="/project"
+          title="VMPetroleum"
+          image="/Projects/vmp.png"
+        />
+
+        <PProjectCard
+          link="/project"
+          title="Talentjam"
+          image="/Projects/talentjam.png"
+          dark
+        />
       </div>
     </div>
   </div>
