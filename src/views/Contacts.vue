@@ -68,8 +68,6 @@
               <div class="relative shrink-0 text-center lg:text-left">
                 <!-- Bg -->
 
-       
-
                 <div class="flex pt-12 lg:pt-0 lg:pl-12 xl:pl-20">
                   <div
                     class="mx-auto w-full max-w-[480px] bg-white p-6 shadow-2xl lg:mx-0 lg:w-[480px] lg:max-w-none xl:w-[512px]"

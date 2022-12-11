@@ -4,9 +4,9 @@
 
     <div class="mx-auto max-w-7xl sm:px-6">
       <!-- Hero content -->
-      <div class="pt-80 pb-12 md:pt-40 md:pb-20" style="padding-top: 310px">
+      <div class="pt-80 pb-12 md:pt-40 md:pb-20" style="padding-top: 420px">
         <!-- Section header -->
-        <div class="max-w-5xl pb-12 text-left md:pb-16">
+        <div class="max-w-5xl pb-12 text-left md:pb-16" style="z-index: 21">
           <PSignitureText>IVO OVCHAROV</PSignitureText>
           <h1
             class="leading-tighter mb-4 mt-2 text-5xl font-semibold tracking-tighter md:text-6xl"
@@ -31,7 +31,7 @@
             >
               <PLinkButton>View Projects</PLinkButton>
               <span class="mx-2 text-xl">or</span>
-              <PLinkButton>Read about me</PLinkButton>
+              <PLinkButton>Read About me</PLinkButton>
             </div>
           </div>
           <img
@@ -44,6 +44,12 @@
               z-index: 20;
             "
             src="/hero.png"
+            alt=""
+          />
+          <img
+            class="hidden lg:block"
+            style="position: absolute; top: 100px; left: 80px; z-index: 19"
+            src="/developer.svg"
             alt=""
           />
         </div>

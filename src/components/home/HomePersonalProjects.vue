@@ -2,10 +2,7 @@
 <template>
   <div class="mx-auto max-w-7xl py-20 sm:px-6">
     <PSignitureText>SELECTED PROJECTS</PSignitureText>
-    <h1
-      class="leading-tighter mb-8 mt-2 text-5xl font-semibold tracking-tighter md:text-5xl"
-      data-aos="zoom-y-out"
-    >
+    <h1 class="mb-16 mt-6 text-4xl font-semibold tracking-tighter md:text-5xl">
       Startups stories
     </h1>
     <div class="grid grid-cols-3 gap-4">
