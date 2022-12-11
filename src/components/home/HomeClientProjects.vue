@@ -10,13 +10,17 @@
       </h1>
       <div class="grid grid-cols-2 gap-8">
         <PProjectCard
-          image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
+          title="Teamwork Details Panel"
+          image="/Projects/teamwork.png"
         />
         <PProjectCard
-          image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
+          title="Teamwork planning"
+          image="/Projects/teamworkpoker.png"
         />
         <PProjectCard
-          image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
+          title="BnewB academy"
+          image="/Projects/bnewbacademy.png"
+          :dark="true"
         />
         <PProjectCard
           image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
