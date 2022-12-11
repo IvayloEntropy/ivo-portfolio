@@ -20,9 +20,9 @@
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
-              Full-stack web developer from Varna, Bulgaria with over 6 years of
-              experience in building and customizing websites and apps
-              specialized in Vue.js
+              Senior Front-end developer from Bulgaria, with over 6 years of
+              experience. Specialized in building design system components with
+              Vue.js
             </p>
             <div
               class="flex max-w-xs text-gray-400 sm:flex sm:max-w-none"
