@@ -21,17 +21,7 @@
             <article class="flex h-full flex-col" data-aos="zoom-y-out">
               <header>
                 <router-link to="/blog-post" class="mb-6 block">
-                  <figure
-                    class="pb-9/16 translate-z-0 relative h-0 overflow-hidden rounded"
-                  >
-                    <img
-                      class="absolute inset-0 h-full w-full scale-105 transform object-cover transition duration-700 ease-out hover:-translate-y-1"
-                      src="../images/tutorial-01.jpg"
-                      width="352"
-                      height="198"
-                      alt="News 01"
-                    />
-                  </figure>
+             
                 </router-link>
                 <div class="mb-3">
                   <ul class="-m-1 flex flex-wrap text-xs font-medium">
