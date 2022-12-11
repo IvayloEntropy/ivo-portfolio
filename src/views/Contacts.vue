@@ -68,14 +68,7 @@
               <div class="relative shrink-0 text-center lg:text-left">
                 <!-- Bg -->
 
-                <!-- Illustration -->
-                <img
-                  class="pointer-events-none absolute top-1/2 left-1/2 -z-10 -mt-40 ml-20 max-w-none -translate-y-1/2 -translate-x-1/2 mix-blend-lighten"
-                  src="../images/hero-illustration.svg"
-                  width="960"
-                  height="960"
-                  aria-hidden="true"
-                />
+       
 
                 <div class="flex pt-12 lg:pt-0 lg:pl-12 xl:pl-20">
                   <div
