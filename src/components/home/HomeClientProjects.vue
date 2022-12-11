@@ -8,7 +8,7 @@
       >
         Client stories
       </h1>
-      <div class="grid grid-cols-2 gap-8">
+      <div class="grid grid-cols-2 gap-4">
         <PProjectCard
           title="Teamwork Details Panel"
           image="/Projects/teamwork.png"
@@ -20,11 +20,9 @@
         <PProjectCard
           title="BnewB academy"
           image="/Projects/bnewbacademy.png"
-          :dark="true"
+          dark
         />
-        <PProjectCard
-          image="https://uploads-ssl.webflow.com/589ed0903452732276fe0a7f/5c82323817fa41c2faa495aa_Daniel-Korpai-Portfolio.png"
-        />
+        <PProjectCard title="Talentjam" image="/Projects/talentjam.png" dark />
       </div>
     </div>
   </div>
