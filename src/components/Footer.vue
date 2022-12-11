@@ -17,41 +17,34 @@
 
         <!-- 2nd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 font-medium text-gray-800">Products</h6>
+          <h6 class="mb-2 font-medium text-gray-800">Sitemap</h6>
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Web Studio</router-link
+                >Projects</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >DynamicBox Flex</router-link
+                >Articles</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Programming Forms</router-link
+                >About me</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Integrations</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link
-                to="#"
-                class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Command-line</router-link
+                >Contact me</router-link
               >
             </li>
           </ul>
@@ -59,41 +52,27 @@
 
         <!-- 3rd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 font-medium text-gray-800">Resources</h6>
+          <h6 class="mb-2 font-medium text-gray-800">Favourite Projects</h6>
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Documentation</router-link
+                >Teamwork.com</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Tutorials & Guides</router-link
+                >Planning poker</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Blog</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link
-                to="#"
-                class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Support Center</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link
-                to="#"
-                class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Partners</router-link
+                >BnewB Academy</router-link
               >
             </li>
           </ul>
@@ -101,41 +80,27 @@
 
         <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 font-medium text-gray-800">Company</h6>
+          <h6 class="mb-2 font-medium text-gray-800">Favourite Articles</h6>
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Home</router-link
+                >How to use Figma</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >About us</router-link
+                >MVP for 1 week</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="#"
                 class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Company values</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link
-                to="#"
-                class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Pricing</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link
-                to="#"
-                class="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >Privacy Policy</router-link
+                >Design systems</router-link
               >
             </li>
           </ul>
