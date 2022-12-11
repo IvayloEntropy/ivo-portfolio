@@ -31,7 +31,9 @@
             >
               <PLinkButton>View Projects</PLinkButton>
               <span class="mx-2 text-xl">or</span>
-              <PLinkButton>Read About me</PLinkButton>
+              <PLinkButton href="https://calendly.com/ivoovcharov/30min"
+                >Schedule a meeting</PLinkButton
+              >
             </div>
           </div>
           <img

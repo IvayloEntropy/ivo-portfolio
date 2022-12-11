@@ -3,6 +3,7 @@ const props = defineProps({
   link: { type: String, default: "" },
   classes: { type: String, default: "" },
   size: { type: String, default: "sm" },
+  href: { type: String, default: "" },
 })
 
 const sizes = {
@@ -11,7 +12,19 @@ const sizes = {
 }
 </script>
 <template>
-  <router-link :to="link" class="base_link" :class="classes + sizes[size].class"
+  <a
+    v-if="href"
+    target="_blank"
+    :href="href"
+    :class="classes + sizes[size].class"
+    class="base_link"
+    ><slot
+  /></a>
+  <router-link
+    v-else
+    :to="link"
+    class="base_link"
+    :class="classes + sizes[size].class"
     ><slot
   /></router-link>
 </template>
