@@ -7,6 +7,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AboutIntro: typeof import('./src/components/about/AboutIntro.vue')['default']
+    AboutStory: typeof import('./src/components/about/AboutStory.vue')['default']
     ArticleItem: typeof import('./src/components/articles/ArticleItem.vue')['default']
     ArticleList: typeof import('./src/components/articles/ArticleList.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
@@ -23,5 +25,6 @@ declare module '@vue/runtime-core' {
     PTitleDescription: typeof import('./src/components/shared/PTitleDescription.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Stats: typeof import('./src/components/about/Stats.vue')['default']
   }
 }

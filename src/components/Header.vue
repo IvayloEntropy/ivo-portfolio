@@ -34,7 +34,7 @@
             </li>
             <li>
               <router-link
-                to="/tutorials"
+                to="/about"
                 class="flex items-center px-3 py-2 text-lg text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 lg:px-5"
                 >About</router-link
               >
