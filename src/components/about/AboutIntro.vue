@@ -13,13 +13,13 @@
         </div>
 
         <figure class="flex items-start justify-center">
-          <!-- <img
+          <img
             class="rounded shadow-2xl"
-            src="../images/about-01.jpg"
+            src="/about.png"
             width="768"
             height="432"
             alt="About us"
-          /> -->
+          />
         </figure>
       </div>
     </div>

@@ -1,5 +1,6 @@
 <template>
   <AboutIntro />
-  <!-- <AboutStory />
-  <Stats /> -->
+  <AboutStory />
+  <Stats />
+  <PCallToAction />
 </template>
