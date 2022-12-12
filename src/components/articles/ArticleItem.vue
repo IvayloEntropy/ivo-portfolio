@@ -15,13 +15,20 @@ const props = defineProps({
     <div class="p-6 pt-0">
       <div class="mb-3">
         <ul class="-m-1 flex flex-wrap text-xs font-medium">
-          <li class="m-1">
+          <!-- <li class="m-1">
             <a
               class="inline-flex rounded-full bg-blue-500 py-1 px-3 text-center text-gray-100 transition duration-150 ease-in-out hover:bg-blue-600"
               href="#0"
               >Guides</a
             >
           </li>
+          <li class="m-1">
+            <a
+              class="inline-flex rounded-full bg-blue-100 py-1 px-3 text-center text-gray-800 transition duration-150 ease-in-out hover:bg-blue-200"
+              href="#0"
+              >Intermediate</a
+            >
+          </li> -->
           <li class="m-1">
             <a
               class="inline-flex rounded-full bg-blue-100 py-1 px-3 text-center text-gray-800 transition duration-150 ease-in-out hover:bg-blue-200"

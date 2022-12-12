@@ -4,7 +4,11 @@
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Section header -->
         <div class="mx-auto max-w-3xl pb-12 text-center md:pb-16">
-          <h1 class="h1 mb-4">A few words about me</h1>
+          <h1
+            class="leading-tighter mb-8 mt-2 text-5xl font-semibold tracking-tighter md:text-6xl"
+          >
+           A few words about me
+          </h1>
           <p class="text-xl text-gray-600">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
             eveniet sapiente quis ullam modi cum unde optio voluptatem sint rem
