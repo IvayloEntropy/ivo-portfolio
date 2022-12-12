@@ -7,19 +7,21 @@
           <h1
             class="leading-tighter mb-8 mt-2 text-5xl font-semibold tracking-tighter md:text-6xl"
           >
-           A few words about me
+            A few words about me
           </h1>
           <p class="text-xl text-gray-600">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
-            eveniet sapiente quis ullam modi cum unde optio voluptatem sint rem
-            suscipit, aliquid harum illum dolor architecto sequi ipsam, in amet.
+            An ex-kickboxer, I love latino dances, love to draw, read, oh and
+            almost forgot code! Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Officia eveniet sapiente quis ullam modi cum unde
+            optio voluptatem sint rem suscipit, aliquid harum illum dolor
+            architecto sequi ipsam, in amet.
           </p>
         </div>
 
         <figure class="flex items-start justify-center">
           <img
             class="rounded shadow-2xl"
-            src="/about.png"
+            src="/kickbox2.png"
             width="768"
             height="432"
             alt="About us"

@@ -35,13 +35,14 @@
             />
           </figure>
           <div class="sm:ml-8 lg:ml-16">
-            <h4 class="h4 mb-2">2017 - 2020</h4>
+            <h4 class="h4 mb-2">2017 - 2023</h4>
             <p class="mb-8 text-lg text-gray-600">
-              Quam pellentesque nec nam aliquam sem et tortor consequat,
-              pellentesque adipiscing commodo elit at imperdiet. Semper auctor
-              neque vitae tempus quam pellentesque nec. Amet dictum sit amet
-              justo donec enim diam varius sit amet mattis vulputate enim nulla
-              aliquet porttitor.
+              For the last 6 years I've been in all kind of projects and
+              companies. Quam pellentesque nec nam aliquam sem et tortor
+              consequat, pellentesque adipiscing commodo elit at imperdiet.
+              Semper auctor neque vitae tempus quam pellentesque nec. Amet
+              dictum sit amet justo donec enim diam varius sit amet mattis
+              vulputate enim nulla aliquet porttitor.
             </p>
             <div class="mb-8 flex">
               <img
