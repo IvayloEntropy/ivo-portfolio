@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     AboutStory: typeof import('./src/components/about/AboutStory.vue')['default']
     ArticleItem: typeof import('./src/components/articles/ArticleItem.vue')['default']
     ArticleList: typeof import('./src/components/articles/ArticleList.vue')['default']
+    ContactForm: typeof import('./src/components/contacts/ContactForm.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     HeroHome: typeof import('./src/components/home/HeroHome.vue')['default']
