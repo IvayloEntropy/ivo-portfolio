@@ -9,7 +9,7 @@
           >
             A few words about me
           </h1>
-          <p class="text-xl text-gray-600">
+          <p class="text-2xl text-gray-600">
             An ex-kickboxer, I love latino dances, love to draw, read, oh and
             almost forgot code! Lorem ipsum dolor sit amet consectetur,
             adipisicing elit. Officia eveniet sapiente quis ullam modi cum unde
