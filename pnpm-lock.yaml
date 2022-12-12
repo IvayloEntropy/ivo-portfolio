@@ -6,6 +6,7 @@ specifiers:
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-vue': ^2.3.4
   '@vueuse/core': ^8.9.4
+  airtable: ^0.11.6
   aos: ^2.3.4
   autoprefixer: ^10.4.13
   axios: ^1.2.1
@@ -30,6 +31,7 @@ dependencies:
   '@heroicons/vue': 1.0.6_vue@3.2.45
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
   '@vueuse/core': 8.9.4_vue@3.2.45
+  airtable: 0.11.6
   aos: 2.3.4
   axios: 1.2.1
   firebase: 9.14.0
@@ -701,6 +703,10 @@ packages:
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
     dev: false
 
+  /@types/node/14.18.34:
+    resolution: {integrity: sha512-hcU9AIQVHmPnmjRK+XUUYlILlr9pQrsqSrwov/JK1pnf3GTQowVBhx54FbvM0AU/VXGH4i3+vgXS5EguR7fysA==}
+    dev: false
+
   /@types/node/18.11.9:
     resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
     dev: false
@@ -868,6 +874,17 @@ packages:
       vue-demi: 0.13.11_vue@3.2.45
     dev: false
 
+  /abort-controller/3.0.0:
+    resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
+    engines: {node: '>=6.5'}
+    dependencies:
+      event-target-shim: 5.0.1
+    dev: false
+
+  /abortcontroller-polyfill/1.7.5:
+    resolution: {integrity: sha512-JMJ5soJWP18htbbxJjG7bG6yuI6pRhgJ0scHHTfkUjf6wjP912xZWvM+A4sJK3gqd9E8fcPbDnOefbA9Th/FIQ==}
+    dev: false
+
   /acorn-node/1.8.2:
     resolution: {integrity: sha512-8mt+fslDufLYntIoPAaIMUe/lrbrehIiwmR3t2k9LljIzoigEPF27eLk2hy8zSGzmR/ogr7zbRKINMo1u0yh5A==}
     dependencies:
@@ -889,6 +906,19 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
+
+  /airtable/0.11.6:
+    resolution: {integrity: sha512-Na67L2TO1DflIJ1yOGhQG5ilMfL2beHpsR+NW/jhaYOa4QcoxZOtDFs08cpSd1tBMsLpz5/rrz/VMX/pGL/now==}
+    engines: {node: '>=8.0.0'}
+    dependencies:
+      '@types/node': 14.18.34
+      abort-controller: 3.0.0
+      abortcontroller-polyfill: 1.7.5
+      lodash: 4.17.21
+      node-fetch: 2.6.7
+    transitivePeerDependencies:
+      - encoding
+    dev: false
 
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -1349,6 +1379,11 @@ packages:
   /estree-walker/2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
+  /event-target-shim/5.0.1:
+    resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
+    engines: {node: '>=6'}
+    dev: false
+
   /fast-glob/3.2.12:
     resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
@@ -1582,6 +1617,10 @@ packages:
 
   /lodash.throttle/4.1.1:
     resolution: {integrity: sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==}
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /long/4.0.0:

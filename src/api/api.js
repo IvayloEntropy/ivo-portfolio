@@ -1,4 +1,8 @@
 import axios from "axios"
+import Airtable from "airtable"
+var base = new Airtable({ apiKey: "keyRwzPKxBwoAGIlj" }).base(
+  "app4oxLvO7wwYKKFc",
+)
 
 export function load(entity) {
   const apiToken = "keyRwzPKxBwoAGIlj"
@@ -10,12 +14,6 @@ export function load(entity) {
   )
 }
 
-export function update() {
-  const apiToken = "keyRwzPKxBwoAGIlj"
-  return axios.post(
-    `https://api.airtable.com/v0/app4oxLvO7wwYKKFc/contacts?maxRecords=3&view=Grid%20view`,
-    {
-      headers: { Authorization: "Bearer " + apiToken },
-    },
-  )
+export function create(entity, form) {
+  return base(entity).create(form)
 }

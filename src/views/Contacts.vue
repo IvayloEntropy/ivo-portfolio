@@ -9,6 +9,7 @@
               <!-- Left side -->
               <div class="mb-16 grow text-center lg:mt-32 lg:mb-0 lg:text-left">
                 <h1 class="h2 mb-8">Get in touch — let’s work together.</h1>
+                              <img class="absolute top-16" src="/contact-bg.svg" style="height: 150px"/>
 
                 <div class="mb-12">
                   <ul class="inline-flex flex-col space-y-2.5 text-slate-500">
