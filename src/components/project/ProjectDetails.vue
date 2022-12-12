@@ -52,7 +52,7 @@
             />
           </div>
           <h1
-              class=" mb-4 mt-2 text-4xl font-semibold tracking-tighter md:text-4xl"
+              class=" mb-4 mt-2 text-4xl font-semibold tracking-tighter md:text-3xl"
             >
               Key problems
             </h1>
@@ -63,7 +63,7 @@
               quisquam sint, doloremque soluta consequatur.</span
             >
             <h1
-              class=" mb-4 mt-6 text-4xl font-semibold tracking-tighter md:text-4xl"
+              class=" mb-4 mt-6 text-4xl font-semibold tracking-tighter md:text-3xl"
             >
               Processes
             </h1>
@@ -74,7 +74,7 @@
               quisquam sint, doloremque soluta consequatur.</span
             >
             <h1
-              class=" mb-4 mt-6 text-4xl font-semibold tracking-tighter md:text-4xl"
+              class=" mb-4 mt-6 text-4xl font-semibold tracking-tighter md:text-3xl"
             >
               End result
             </h1>
