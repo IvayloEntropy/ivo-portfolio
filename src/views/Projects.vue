@@ -32,11 +32,7 @@ const category = ref("0")
                   <span>Clients work</span>
                 </div>
               </button>
-              <!-- <button class="relative font-medium text-gray-800 text-sm px-3 py-1.5 border rounded-full inline-flex m-1.5" :class="category === '3' ? 'bg-blue-100 border-blue-300': 'bg-white border-gray-200'" @click="category = '3'">
-                <div class="flex items-center justify-center">
-                  <span>Web design</span>
-                </div>
-              </button> -->
+        
      
             </div>
           </div>

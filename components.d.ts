@@ -20,6 +20,7 @@ declare module '@vue/runtime-core' {
     PCallToAction: typeof import('./src/components/shared/PCallToAction.vue')['default']
     PLinkButton: typeof import('./src/components/shared/PLinkButton.vue')['default']
     PProjectCard: typeof import('./src/components/shared/PProjectCard.vue')['default']
+    ProjectDetails: typeof import('./src/components/project/ProjectDetails.vue')['default']
     PSignitureText: typeof import('./src/components/shared/PSignitureText.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
