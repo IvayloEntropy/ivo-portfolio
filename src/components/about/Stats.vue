@@ -362,10 +362,9 @@
         </div>
 
         <!-- Items -->
-        <div
+        <!-- <div
           class="mx-auto grid max-w-sm items-start gap-8 pt-8 md:max-w-2xl md:grid-cols-2 md:gap-16 md:pt-12 lg:max-w-5xl lg:grid-cols-3"
         >
-          <!-- 1st item -->
           <div class="text-center">
             <div class="h3 mb-1">Over 6 years of experience</div>
             <div class="text-gray-600">
@@ -374,7 +373,6 @@
             </div>
           </div>
 
-          <!-- 2nd item -->
           <div class="text-center">
             <div class="h3 mb-1">Over 50 completed projects</div>
             <div class="text-gray-600">
@@ -383,7 +381,6 @@
             </div>
           </div>
 
-          <!-- 3rd item -->
           <div class="text-center">
             <div class="h3 mb-1">Over 300 something else there</div>
             <div class="text-gray-600">
@@ -391,7 +388,7 @@
               et netus.
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

@@ -77,8 +77,9 @@ const category = ref("0")
           <div
             class="grid items-start gap-12 md:grid-cols-2 md:gap-x-6 md:gap-y-8"
           >
-            <!-- 1st article -->
+            <ProjectCardSkeleton v-if="isLoading" v-for="i in 4" />
             <PProjectCard
+              v-else
               v-for="project in projects"
               :key="project.id"
               :link="`/projects/${project.fields.slug}`"
