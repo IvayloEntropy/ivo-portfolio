@@ -7,7 +7,7 @@ var base = new Airtable({ apiKey: "keyRwzPKxBwoAGIlj" }).base(
 export function load(entity) {
   const apiToken = "keyRwzPKxBwoAGIlj"
   return axios.get(
-    `https://api.airtable.com/v0/app4oxLvO7wwYKKFc/${entity}?maxRecords=3&view=Grid%20view`,
+    `https://api.airtable.com/v0/app4oxLvO7wwYKKFc/${entity}?maxRecords=50&view=Grid%20view`,
     {
       headers: { Authorization: "Bearer " + apiToken },
     },

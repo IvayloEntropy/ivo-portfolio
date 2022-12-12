@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  projects: { type: Array, default: () => {} },
+})
+</script>
 <template>
   <div class="bg-gray-50 py-20">
     <div class="mx-auto max-w-7xl sm:px-6">
@@ -10,27 +14,11 @@
       </h1>
       <div class="grid grid-cols-2 gap-4">
         <PProjectCard
-          link="/project"
-          title="Teamwork Details Panel"
-          image="/Projects/teamwork.png"
-        />
-        <PProjectCard
-          link="/project"
-          title="BnewB academy"
-          image="/Projects/bnewbacademy.png"
-          dark
-        />
-        <PProjectCard
-          link="/project"
-          title="VMPetroleum"
-          image="/Projects/vmp.png"
-        />
-
-        <PProjectCard
-          link="/project"
-          title="Talentjam"
-          image="/Projects/talentjam.png"
-          dark
+          v-for="project in projects"
+          :key="project.id"
+          :link="`/projects/${project.fields.slug}`"
+          :title="project.fields.name"
+          :image="project.fields.image[0].url"
         />
       </div>
     </div>

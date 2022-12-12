@@ -1,3 +1,4 @@
 <template>
   <ArticleList />
+  <PCallToAction />
 </template>

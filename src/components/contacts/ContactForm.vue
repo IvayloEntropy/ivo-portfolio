@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue"
-import { load, create } from "../../api/api.js"
+import { create } from "../../api/api.js"
 
 // load("contacts").then(response => {
 //   console.log(response)
@@ -142,18 +142,36 @@ function onSubmit() {
             </div>
           </div>
           <div class="mt-6 text-right">
-              <button
-                v-if="!isSumitted"
-                class="btn-sm group inline-flex items-center bg-blue-500 text-blue-50 shadow-sm hover:bg-blue-600"
+            <button
+              v-if="!isSumitted"
+              class="btn-sm group inline-flex items-center bg-blue-500 text-blue-50 shadow-sm hover:bg-blue-600"
+            >
+              <svg
+                v-if="isSubmitting"
+                class="-ml-1 mr-3 h-5 w-5 animate-spin text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
               >
-              <svg v-if="isSubmitting" class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                <circle
+                  class="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="4"
+                ></circle>
+                <path
+                  class="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                ></path>
               </svg>
-                Submit the form
-              </button>
-              <span v-else class="font-semibold"> I will get back to you soon ✓</span>
-             
+              Submit the form
+            </button>
+            <span v-else class="font-semibold">
+              I will get back to you soon ✓</span
+            >
           </div>
         </form>
       </div>

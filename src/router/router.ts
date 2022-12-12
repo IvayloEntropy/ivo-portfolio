@@ -13,25 +13,24 @@ const routes = [
   { path: "/", component: Home },
   { path: "/articles", component: Articles },
   { path: "/blog-post", component: Article },
-
   { path: "/contacts", component: Contacts },
   { path: "/projects", component: Projects },
-  { path: "/project", component: Project },
+  { path: "/projects/:slug", component: Project },
   { path: "/about", component: About },
 ]
 
 export const router = createRouter({
   history: createWebHistory(),
-  routes, // short for `routes: routes`
+  routes,
   scrollBehavior: function (to, _from, savedPosition) {
     if (savedPosition) {
-      return savedPosition;
+      return savedPosition
     }
     if (to.hash) {
-      return { el: to.hash, behavior: "smooth" };
+      return { el: to.hash, behavior: "smooth" }
     } else {
-      console.log("moving to top of the page");
-      window.scrollTo(0, 0);
+      console.log("moving to top of the page")
+      window.scrollTo(0, 0)
     }
- }
+  },
 })
