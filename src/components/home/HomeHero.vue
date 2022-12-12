@@ -29,7 +29,7 @@
               data-aos="zoom-y-out"
               data-aos-delay="300"
             >
-              <PLinkButton>View Projects</PLinkButton>
+              <PLinkButton link="/projects">View Projects</PLinkButton>
               <span class="mx-2 text-xl">or</span>
               <PLinkButton href="https://calendly.com/ivoovcharov/30min"
                 >Schedule a meeting</PLinkButton

@@ -20,7 +20,7 @@
           <ul class="flex grow flex-wrap items-center justify-end">
             <li>
               <router-link
-                to="/pricing"
+                to="/projects"
                 class="flex items-center px-3 py-2 text-lg text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 lg:px-5"
                 >Projects</router-link
               >
