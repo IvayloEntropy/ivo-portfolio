@@ -32,7 +32,7 @@
                       </svg>
                       <span
                         >Wanna send me an email?
-                        <b> entropyactive@gmail.com</b></span
+                        <b> ivofreelance@gmail.com</b></span
                       >
                     </li>
                     <li class="flex items-center text-left">
@@ -67,7 +67,7 @@
                         >Schedule a meeting?
                         <a
                           class="font-bold text-blue-500"
-                          href="https://calendly.com/ivoovcharov/30min"
+                          href="https://calendly.com/ivofreelance/30min"
                           target="_blank"
                           >Calendly</a
                         ></span
