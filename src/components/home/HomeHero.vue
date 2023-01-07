@@ -45,7 +45,7 @@
               height: calc(100vh - 80px);
               z-index: 20;
             "
-            src="/hero.png"
+            src="/hero.webp"
             alt=""
           />
           <img
