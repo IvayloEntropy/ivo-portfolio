@@ -21,7 +21,7 @@
         <figure class="flex items-start justify-center">
           <img
             class="rounded shadow-2xl"
-            src="/kickbox2.png"
+            src="/kickbox2.webp"
             width="768"
             height="432"
             alt="About us"

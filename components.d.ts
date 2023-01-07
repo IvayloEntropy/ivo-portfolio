@@ -22,8 +22,6 @@ declare module '@vue/runtime-core' {
     PLinkButton: typeof import('./src/components/shared/PLinkButton.vue')['default']
     PProjectCard: typeof import('./src/components/shared/PProjectCard.vue')['default']
     PrevIcon: typeof import('./src/components/project/PrevIcon.vue')['default']
-    ProjectCard: typeof import('./src/components/skeletons/ProjectCard.vue')['default']
-    ProjectCardSceleton: typeof import('./src/components/skeletons/ProjectCardSceleton.vue')['default']
     ProjectCardSkeleton: typeof import('./src/components/skeletons/ProjectCardSkeleton.vue')['default']
     ProjectDetails: typeof import('./src/components/project/ProjectDetails.vue')['default']
     ProjectDetailsCategories: typeof import('./src/components/project/ProjectDetailsCategories.vue')['default']
