@@ -4,7 +4,7 @@
       <div class="pb-12 md:pb-20">
         <div class="mx-auto max-w-3xl">
           <h3 class="h3 mb-3">My story</h3>
-          <p class="mb-8 text-lg text-gray-600">
+          <p class="mb-8 text-2xl text-gray-600">
             Aenean sed adipiscing diam donec adipiscing tristique risus nec
             feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu
             dictum varius duis at consectetur lorem donec massa sapien, sed
@@ -12,7 +12,7 @@
             netus et, nibh nisl condimentum id venenatis a condimentum vitae
             sapien.
           </p>
-          <p class="mb-8 text-lg text-gray-600">
+          <p class="mb-8 text-2xl text-gray-600">
             Quam pellentesque nec nam aliquam sem et tortor consequat,
             pellentesque adipiscing commodo elit at imperdiet. Semper auctor
             neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo
@@ -35,13 +35,14 @@
             />
           </figure>
           <div class="sm:ml-8 lg:ml-16">
-            <h4 class="h4 mb-2">2017 - 2020</h4>
-            <p class="mb-8 text-lg text-gray-600">
-              Quam pellentesque nec nam aliquam sem et tortor consequat,
-              pellentesque adipiscing commodo elit at imperdiet. Semper auctor
-              neque vitae tempus quam pellentesque nec. Amet dictum sit amet
-              justo donec enim diam varius sit amet mattis vulputate enim nulla
-              aliquet porttitor.
+            <h4 class="h4 mb-2">2017 - 2023</h4>
+            <p class="mb-8 text-2xl text-gray-600">
+              For the last 6 years I've been in all kind of projects and
+              companies. From there I found my passion, Quam pellentesque nec
+              nam aliquam sem et tortor consequat, pellentesque adipiscing
+              commodo elit at imperdiet. Semper auctor neque vitae tempus quam
+              pellentesque nec. Amet dictum sit amet justo donec enim diam
+              varius sit amet mattis vulputate enim nulla aliquet porttitor.
             </p>
             <div class="mb-8 flex">
               <img
@@ -67,7 +68,7 @@
         </div>
 
         <div class="mx-auto max-w-3xl">
-          <p class="text-lg text-gray-600">
+          <p class="text-2xl text-gray-600">
             Aenean sed adipiscing diam donec adipiscing tristique risus nec
             feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu
             dictum varius duis at consectetur lorem donec massa sapien, sed

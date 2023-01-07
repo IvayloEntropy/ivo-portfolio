@@ -4,12 +4,16 @@
     <main class="grow">
       <section>
         <div class="mx-auto max-w-6xl px-4 sm:px-6">
-          <div class="pt-36 pb-12 md:pt-40 md:pb-20">
+          <div class="pt-36 pb-12 md:pt-60 md:pb-20">
             <div class="lg:flex lg:space-x-12 xl:space-x-16">
               <!-- Left side -->
               <div class="mb-16 grow text-center lg:mt-32 lg:mb-0 lg:text-left">
                 <h1 class="h2 mb-8">Get in touch — let’s work together.</h1>
-                <img class="absolute top-16" src="/contact-bg.svg" style="height: 150px"/>
+                <img
+                  class="absolute top-40"
+                  src="/contact-bg.svg"
+                  style="height: 150px"
+                />
 
                 <div class="mb-12">
                   <ul class="inline-flex flex-col space-y-2.5 text-slate-500">
@@ -28,7 +32,7 @@
                       </svg>
                       <span
                         >Wanna send me an email?
-                        <b> entropyactive@gmail.com</b></span
+                        <b> ivofreelance@gmail.com</b></span
                       >
                     </li>
                     <li class="flex items-center text-left">
@@ -63,7 +67,7 @@
                         >Schedule a meeting?
                         <a
                           class="font-bold text-blue-500"
-                          href="https://calendly.com/ivoovcharov/30min"
+                          href="https://calendly.com/ivofreelance/30min"
                           target="_blank"
                           >Calendly</a
                         ></span

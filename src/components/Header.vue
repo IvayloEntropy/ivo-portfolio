@@ -40,7 +40,11 @@
               >
             </li>
             <li>
-              <PLinkButton link="/contacts" class="mt-1 ml-2 flex items-center">
+              <PLinkButton
+                link="/contacts"
+                style="margin-top: 1px"
+                class="ml-2 flex items-center"
+              >
                 Contact me
                 <svg
                   class="ml-2 -mr-1 h-3 w-3 shrink-0 fill-current"
