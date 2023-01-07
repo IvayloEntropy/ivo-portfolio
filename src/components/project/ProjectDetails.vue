@@ -64,7 +64,7 @@ onKeyStroke("ArrowRight", e => {
     >
       <ProjectDetailsSkeleton v-if="isLoading" />
       <div v-else>
-        <div class="flex">
+        <div class="flex justify-between">
           <div class="pr-10">
             <h1
               class="leading-tighter mb-4 mt-2 text-4xl font-semibold tracking-tighter md:text-4xl"
@@ -72,36 +72,24 @@ onKeyStroke("ArrowRight", e => {
               {{ currentProject.fields.name }}
             </h1>
             <span class="text-2xl text-gray-500"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Praesentium quam, ullam eveniet incidunt porro enim asperiores
-              tempora a ipsa suscipit, optio laudantium ab deserunt ipsum
-              quisquam sint, doloremque soluta consequatur.</span
+              >{{  currentProject.fields.baseDescription  }}</span
             >
-            <ProjectDetailsCategories />
+            <ProjectDetailsCategories :tags="currentProject.fields.tags"/>
           </div>
 
           <img
-            style="height: 320px; object-fit: cover"
-            class="grow self-start rounded shadow-md"
+            style="height: 250px; max-width: 450px; object-fit: cover"
+            class=" self-start rounded shadow-md"
             :src="currentProject.fields.image[0].url"
-            width="435"
-            height="326"
             alt="About us 02"
           />
         </div>
         <h1
           class="mb-4 mt-2 text-4xl font-semibold tracking-tighter md:text-3xl"
         >
-          More Details
+          Story
         </h1>
-        <span class="text-xl text-gray-500"
-          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
-          porro enim asperiores tempora a ipsa suscipit, optio laudantium ab
-          deserunt ipsum quisquam sint, doloremque soluta consequatur. Lorem
-          ipsum dolor, sit amet consectetur adipisicing elit. Praesentium porro
-          enim asperiores tempora a ipsa suscipit, optio laudantium ab deserunt
-          ipsum quisquam sint, doloremque soluta consequatur.</span
-        >
+        <span class="text-xl text-gray-500" v-html="currentProject.fields.story"></span>
       </div>
     </div>
   </div>
