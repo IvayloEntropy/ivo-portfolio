@@ -87,10 +87,16 @@ function stopVideo() {
             <ProjectDetailsCategories :tags="currentProject.fields.tags"/>
         
           </div>
-            <video ref="video" autoplay style="height: 250px; max-width: 450px;" muted loop id="myVideo">
+             <img
+              v-if="!currentProject.fields?.video"
+              style="object-fit: cover"
+              class=" self-start rounded shadow-md"
+              :src="currentProject.fields.image[0].url"
+          />
+            <video v-else ref="video" autoplay style="height: 250px; max-width: 450px;" muted loop id="myVideo">
               <source :src="currentProject.fields?.video &&  currentProject.fields?.video[0]?.url" type="video/mp4">
             </video>
-      
+s      
         </div>
         <h1
           class="mb-4 mt-2 text-4xl font-semibold tracking-tighter md:text-3xl"
