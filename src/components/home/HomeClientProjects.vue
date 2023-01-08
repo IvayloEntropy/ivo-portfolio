@@ -1,6 +1,7 @@
 <script setup>
 const props = defineProps({
   projects: { type: Array, default: () => {} },
+  isLoading: { type: Boolean, default: false },
 })
 </script>
 <template>
@@ -13,8 +14,10 @@ const props = defineProps({
         Client stories
       </h1>
       <div class="grid grid-cols-2 gap-4">
-        
+        <ProjectCardSkeleton v-if="isLoading" v-for="i in 4" />
+
         <PProjectCard
+          v-else
           v-for="project in projects"
           :key="project.id"
           :link="`/projects/${project.fields.slug}`"

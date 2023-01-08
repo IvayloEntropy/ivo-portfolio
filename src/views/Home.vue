@@ -27,7 +27,8 @@ const personalTopProjects = computed(() =>
 </script>
 <template>
   <HomeHero />
-  <HomeClientProjects :projects="clientTopProjects" />
-  <HomePersonalProjects :projects="personalTopProjects" />
+
+  <HomeClientProjects :isLoading="isLoading" :projects="clientTopProjects" />
+  <HomePersonalProjects  :isLoading="isLoading" v-if="!isLoading" :projects="personalTopProjects" />
   <PCallToAction />
 </template>
