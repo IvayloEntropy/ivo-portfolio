@@ -89,7 +89,7 @@ function stopVideo() {
           </div>
              <img
               v-if="!currentProject.fields?.video"
-              style="object-fit: cover"
+              style="height: 250px; max-width: 450px; object-fit: cover"
               class=" self-start rounded shadow-md"
               :src="currentProject.fields.image[0].url"
           />
