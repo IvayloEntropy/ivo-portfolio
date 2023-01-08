@@ -144,7 +144,7 @@ function onSubmit() {
           <div class="mt-6 text-right">
          
             <span class="font-semibold">
-              I will have a form when I get my GDPR done
+              Comming soon
               </span
             >
           </div>
