@@ -83,6 +83,7 @@ const category = ref("0")
               v-for="project in projects"
               :key="project.id"
               :link="`/projects/${project.fields.slug}`"
+              :project="project"
               :title="project.fields.name"
               :image="project.fields.image[0].url"
             />

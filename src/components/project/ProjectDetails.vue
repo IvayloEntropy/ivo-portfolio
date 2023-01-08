@@ -41,6 +41,16 @@ onKeyStroke("ArrowRight", e => {
     })
   }
 })
+
+const video = ref(null)
+
+function playVideo() {
+  video.value.play()
+}
+function stopVideo() {
+  video.value.pause()
+  video.value.currentTime = 0
+}
 </script>
 
 <template>
@@ -75,14 +85,12 @@ onKeyStroke("ArrowRight", e => {
               >{{  currentProject.fields.baseDescription  }}</span
             >
             <ProjectDetailsCategories :tags="currentProject.fields.tags"/>
+        
           </div>
-
-          <img
-            style="height: 250px; max-width: 450px; object-fit: cover"
-            class=" self-start rounded shadow-md"
-            :src="currentProject.fields.image[0].url"
-            alt="About us 02"
-          />
+            <video ref="video" autoplay style="height: 250px; max-width: 450px;" muted loop id="myVideo">
+              <source :src="currentProject.fields?.video &&  currentProject.fields?.video[0]?.url" type="video/mp4">
+            </video>
+      
         </div>
         <h1
           class="mb-4 mt-2 text-4xl font-semibold tracking-tighter md:text-3xl"

@@ -13,12 +13,14 @@ const props = defineProps({
         Client stories
       </h1>
       <div class="grid grid-cols-2 gap-4">
+        
         <PProjectCard
           v-for="project in projects"
           :key="project.id"
           :link="`/projects/${project.fields.slug}`"
           :title="project.fields.name"
           :image="project.fields.image[0].url"
+          :project="project"
         />
       </div>
     </div>

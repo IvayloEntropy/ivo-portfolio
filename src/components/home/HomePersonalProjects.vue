@@ -15,6 +15,7 @@ const props = defineProps({
         :key="project.id"
         :link="`/projects/${project.fields.slug}`"
         :title="project.fields.name"
+        :project="project"
         :image="project.fields.image[0].url"
       />
       <!-- 
