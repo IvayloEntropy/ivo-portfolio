@@ -21,9 +21,8 @@
               data-aos-delay="150"
             >
               Senior Front-end developer from Bulgaria, with over 6 years of
-              experience. 
-               Specialized in improving startup projects and building  <span>design system</span> components with
-              Vue.js and React.js
+              experience. Specialized in improving startup projects and building
+              <span>design system</span> components with Vue.js and Vuetify
             </p>
             <div
               class="flex max-w-xs text-gray-400 sm:flex sm:max-w-none"
