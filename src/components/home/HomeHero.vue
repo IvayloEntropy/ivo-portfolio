@@ -20,9 +20,7 @@
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
-              Senior Front-end developer from Bulgaria, with over 6 years of
-              experience. Specialized in improving startup projects and building
-              <span>design system</span> components with Vue.js and Vuetify
+            Senior Frontend developer in teamwork.com, with over 8 years of experience. Specialized in building design systems and startup projects
             </p>
             <div
               class="flex max-w-xs text-gray-400 sm:flex sm:max-w-none"
